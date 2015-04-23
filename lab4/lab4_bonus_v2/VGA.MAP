@@ -1,0 +1,164 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00764H 00765H _TEXT              CODE
+ 00770H 008FBH 0018CH _DATA              DATA
+ 008FCH 008FFH 00004H _EMUSEG            DATA
+ 00900H 00901H 00002H _CRTSEG            DATA
+ 00902H 00902H 00000H _CVTSEG            DATA
+ 00902H 00902H 00000H _SCNSEG            DATA
+ 00902H 0194DH 0104CH _BSS               BSS
+ 0194EH 0194EH 00000H _BSSEND            STACK
+
+  Address         Publics by Name
+
+ 0000:02D6       DGROUP@
+ 0000:08DF       emws_adjust
+ 0000:08E3       emws_BPsafe
+ 0000:08DB       emws_control
+ 0000:08E1       emws_fixSeg
+ 0000:08C5       emws_initialSP
+ 0000:0805       emws_limitSP
+ 0000:08D5       emws_nmiVector
+ 0000:08D1       emws_saveVector
+ 0000:08E5       emws_stamp
+ 0000:08D9       emws_status
+ 0000:08DD       emws_TOS
+ 0000:08E9       emws_version
+ 0000:02C0       _abort
+ 0000:0575       _atexit
+ 0000:0745       _brk
+ 0000:1906       _character
+ 0000:08EC       _cursor
+ 0000:07DF       _environ
+ 0000:07EB       _errno
+ 0000:040B       _exit
+ 0000:08EE       _isFirstTime
+ 0000:067A       _malloc
+ 0000:02D8       _mymain
+ 0000:03EC       _saveChar
+ 0000:03F7       _saveSSSP
+ 0000:0753       _sbrk
+ 0000:0906       _screen
+ 0000:0902       _sp
+ 0000:0904       _ss
+ 0000:07ED       __8087
+ 0000:07DB       __argc
+ 0000:07DD       __argv
+ 0000:08FA       __atexitcnt
+ 0000:1908       __atexittbl
+ 0000:07FD       __brklvl
+ 0000:07E1       __envLng
+ 0000:07E3       __envseg
+ 0000:07E5       __envSize
+ 0000:0220       __exit
+ 0000:08F0       __exitbuf
+ 0000:08F2       __exitfopen
+ 0000:08F4       __exitopen
+ 0000:07F9       __heapbase
+ 0000:08F6       __heaplen
+ 0000:0801       __heaptop
+ 0000:07CB       __Int0Vector
+ 0000:07CF       __Int4Vector
+ 0000:07D3       __Int5Vector
+ 0000:07D7       __Int6Vector
+ 0000:07E9       __osmajor
+ 0000:07EA       __osminor
+ 0000:07E7       __psp
+ 0000:0902       __RealCvtVector
+ 0000:0283       __restorezero
+ 0000:0902       __ScanTodVector
+ 0000:0440       __setargv
+ 0000:052B       __setenvp
+ 0000:07EF       __StartTime
+ 0000:08F8       __stklen
+ 0000:07E9       __version
+ 0000:06ED       ___brk
+ 0000:07F5       ___brklvl
+ 0000:194C       ___first
+ 0000:07F3       ___heapbase
+ 0000:07F7       ___heaptop
+ 0000:1948       ___last
+ 0000:059B       ___pull_free_block
+ 0000:194A       ___rover
+ 0000:0711       ___sbrk
+
+  Address         Publics by Value
+
+ 0000:0220       __exit
+ 0000:0283       __restorezero
+ 0000:02C0       _abort
+ 0000:02D6       DGROUP@
+ 0000:02D8       _mymain
+ 0000:03EC       _saveChar
+ 0000:03F7       _saveSSSP
+ 0000:040B       _exit
+ 0000:0440       __setargv
+ 0000:052B       __setenvp
+ 0000:0575       _atexit
+ 0000:059B       ___pull_free_block
+ 0000:067A       _malloc
+ 0000:06ED       ___brk
+ 0000:0711       ___sbrk
+ 0000:0745       _brk
+ 0000:0753       _sbrk
+ 0000:07CB       __Int0Vector
+ 0000:07CF       __Int4Vector
+ 0000:07D3       __Int5Vector
+ 0000:07D7       __Int6Vector
+ 0000:07DB       __argc
+ 0000:07DD       __argv
+ 0000:07DF       _environ
+ 0000:07E1       __envLng
+ 0000:07E3       __envseg
+ 0000:07E5       __envSize
+ 0000:07E7       __psp
+ 0000:07E9       __osmajor
+ 0000:07E9       __version
+ 0000:07EA       __osminor
+ 0000:07EB       _errno
+ 0000:07ED       __8087
+ 0000:07EF       __StartTime
+ 0000:07F3       ___heapbase
+ 0000:07F5       ___brklvl
+ 0000:07F7       ___heaptop
+ 0000:07F9       __heapbase
+ 0000:07FD       __brklvl
+ 0000:0801       __heaptop
+ 0000:0805       emws_limitSP
+ 0000:08C5       emws_initialSP
+ 0000:08D1       emws_saveVector
+ 0000:08D5       emws_nmiVector
+ 0000:08D9       emws_status
+ 0000:08DB       emws_control
+ 0000:08DD       emws_TOS
+ 0000:08DF       emws_adjust
+ 0000:08E1       emws_fixSeg
+ 0000:08E3       emws_BPsafe
+ 0000:08E5       emws_stamp
+ 0000:08E9       emws_version
+ 0000:08EC       _cursor
+ 0000:08EE       _isFirstTime
+ 0000:08F0       __exitbuf
+ 0000:08F2       __exitfopen
+ 0000:08F4       __exitopen
+ 0000:08F6       __heaplen
+ 0000:08F8       __stklen
+ 0000:08FA       __atexitcnt
+ 0000:0902       _sp
+ 0000:0902       __ScanTodVector
+ 0000:0902       __RealCvtVector
+ 0000:0904       _ss
+ 0000:0906       _screen
+ 0000:1906       _character
+ 0000:1908       __atexittbl
+ 0000:1948       ___last
+ 0000:194A       ___rover
+ 0000:194C       ___first
+
+Undefined symbol '_main' in module C0T
+Undefined symbol '_iret' in module vga.c
+Undefined symbol '_show' in module vga.c
+Program entry point at 0000:0100
+Warning: no stack
+
